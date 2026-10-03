@@ -24,7 +24,7 @@ export default function Dashboard() {
 
       <View style={styles.studentCard}>
         <Text style={styles.studentName}>
-          Emmanuel Uwazie
+          Emma Berinyuy
         </Text>
 
         <Text>

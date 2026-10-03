@@ -5,11 +5,17 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
 
 # Native
+ios/Pods/
+android/app/build/
+android/build/
+android/ .gradle/
+android/app/ .cxx/
 .kotlin/
 *.orig.*
 *.jks
@@ -31,7 +37,9 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+*.log
 
 # typescript
 *.tsbuildinfo
